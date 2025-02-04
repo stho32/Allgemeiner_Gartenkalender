@@ -6,6 +6,17 @@
     <title>Sicki-Gartenkalender</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <style>
+        .not-updated {
+            opacity: 0.7;
+            background-color: #f8f9fa;
+        }
+        .not-updated .card-text::after {
+            content: " (noch nicht überarbeitet)";
+            color: #6c757d;
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
     <div class="header text-center">
@@ -18,7 +29,7 @@
                 <div class="month-card card">
                     <div class="card-body">
                         <h5 class="card-title">Januar</h5>
-                        <p class="card-text">Winterarbeiten und Planung</p>
+                        <p class="card-text">Winterruhe - Der Garten schläft</p>
                         <a href="monate/januar.html" class="btn btn-success">Zum Januar</a>
                     </div>
                 </div>
@@ -27,13 +38,13 @@
                 <div class="month-card card">
                     <div class="card-body">
                         <h5 class="card-title">Februar</h5>
-                        <p class="card-text">Vorbereitungen für den Frühling</p>
+                        <p class="card-text">Winterruhe - Der Garten schläft</p>
                         <a href="monate/februar.html" class="btn btn-success">Zum Februar</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="month-card card">
+                <div class="month-card card not-updated">
                     <div class="card-body">
                         <h5 class="card-title">März</h5>
                         <p class="card-text">Start in die Gartensaison</p>
@@ -42,7 +53,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="month-card card">
+                <div class="month-card card not-updated">
                     <div class="card-body">
                         <h5 class="card-title">April</h5>
                         <p class="card-text">Frühlingsblüte und erste Aussaat</p>
@@ -51,7 +62,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="month-card card">
+                <div class="month-card card not-updated">
                     <div class="card-body">
                         <h5 class="card-title">Mai</h5>
                         <p class="card-text">Hauptpflanzzeit</p>
@@ -60,7 +71,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="month-card card">
+                <div class="month-card card not-updated">
                     <div class="card-body">
                         <h5 class="card-title">Juni</h5>
                         <p class="card-text">Pflege und erste Ernte</p>
@@ -69,7 +80,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="month-card card">
+                <div class="month-card card not-updated">
                     <div class="card-body">
                         <h5 class="card-title">Juli</h5>
                         <p class="card-text">Hochsommer im Garten</p>
@@ -78,7 +89,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="month-card card">
+                <div class="month-card card not-updated">
                     <div class="card-body">
                         <h5 class="card-title">August</h5>
                         <p class="card-text">Erntezeit und Sommerpflege</p>
@@ -87,7 +98,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="month-card card">
+                <div class="month-card card not-updated">
                     <div class="card-body">
                         <h5 class="card-title">September</h5>
                         <p class="card-text">Herbstbeginn und Vorbereitung</p>
@@ -96,7 +107,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="month-card card">
+                <div class="month-card card not-updated">
                     <div class="card-body">
                         <h5 class="card-title">Oktober</h5>
                         <p class="card-text">Herbstarbeiten</p>
@@ -105,7 +116,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="month-card card">
+                <div class="month-card card not-updated">
                     <div class="card-body">
                         <h5 class="card-title">November</h5>
                         <p class="card-text">Wintervorbereitung</p>
@@ -114,7 +125,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="month-card card">
+                <div class="month-card card not-updated">
                     <div class="card-body">
                         <h5 class="card-title">Dezember</h5>
                         <p class="card-text">Winterruhe und Planung</p>
